@@ -1,0 +1,9 @@
+[Activity]
+name = MeasureButia
+bundle_id = org.laptop.MeasureButiaActivity
+exec = sugar-activity measure.MeasureActivity
+icon = activity-measure-butia
+activity_version = 42
+show_launcher = yes
+license = GPLv2+
+update_url = http://wiki.laptop.org/go/Activities/G1G1

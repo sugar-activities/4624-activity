@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-15 00:33-0500\n"
+"PO-Revision-Date: 2012-02-16 07:53+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: activity/activity.info:2
+msgid "Measure"
+msgstr "Мера"
+
+#: journal.py:42 sensor_toolbar.py:52 sensor_toolbar.py:88
+#: sensor_toolbar.py:259
+msgid "Sound"
+msgstr "Звук"
+
+#: journal.py:43 sensor_toolbar.py:53
+msgid "Ohms"
+msgstr "Оми"
+
+#: journal.py:44 sensor_toolbar.py:54
+msgid "Volts"
+msgstr "Волти"
+
+#: journal.py:45 sensor_toolbar.py:62
+msgid "Hz"
+msgstr "Hz"
+
+#: journal.py:58 measure.py:363
+msgid "Session"
+msgstr "Етапа у раду"
+
+#: journal.py:60
+msgid "User"
+msgstr "Корисник"
+
+#: journal.py:61
+msgid "Mode"
+msgstr "Начин"
+
+#: journal.py:63
+msgid "Date"
+msgstr "Датум"
+
+#: journal.py:65
+msgid "Interval"
+msgstr "Интервал"
+
+#: journal.py:68
+msgid "Channels"
+msgstr "Канали"
+
+#: journal.py:108
+msgid "Waveform"
+msgstr "Овлик таласа"
+
+#: measure.py:212 measure.py:218
+msgid "Sensors"
+msgstr "Сензори"
+
+#: measure.py:219
+msgid "Controls"
+msgstr "Контроле"
+
+#: measure.py:228
+msgid "Capture mode"
+msgstr "Ухвати режим"
+
+#: measure.py:245 measure.py:276 measure.py:387
+msgid "Freeze the display"
+msgstr "Замрзни екран"
+
+#: measure.py:250 measure.py:281
+msgid "Capture sample now"
+msgstr "Ухвати примерак сад"
+
+#: measure.py:260
+msgid "<Ctrl>Q"
+msgstr "<Ctrl>Q"
+
+#: measure.py:350
+msgid "Measure Log"
+msgstr "Измери дневник"
+
+#: measure.py:382
+msgid "Unfreeze the display"
+msgstr "Одмрзни екран"
+
+#: sensor_toolbar.py:47
+msgid "Resistive sensor (connect sensor to pink 'Mic In' on left side of XO)"
+msgstr "Резистивни сензор (повезати сенѕор у рози 'Mic In' на левој страни XO)"
+
+#: sensor_toolbar.py:50
+msgid "Voltage sensor (connect sensor to pink 'Mic In' on left side of XO)"
+msgstr "Напон сензор (повезати сензор у рози 'Mic In' на левој страни XO)"
+
+#: sensor_toolbar.py:53
+msgid "Resistance"
+msgstr "Отпор"
+
+#: sensor_toolbar.py:54
+msgid "Voltage"
+msgstr "Напон"
+
+#: sensor_toolbar.py:55 sensor_toolbar.py:121 sensor_toolbar.py:220
+msgid "Time Base"
+msgstr "Временска основа"
+
+#: sensor_toolbar.py:56 sensor_toolbar.py:224
+msgid "Frequency Base"
+msgstr "Френквенциска основа"
+
+#: sensor_toolbar.py:57 toolbar_side.py:44
+msgid "Invert"
+msgstr "Обрни"
+
+#: sensor_toolbar.py:58
+#, python-format
+msgid "X Axis Scale: 1 division = %(division)s %(unit)s"
+msgstr "X Размера осе: 1 дељење = %(division)s %(unit)s"
+
+#: sensor_toolbar.py:60
+msgid "ms"
+msgstr "мс"
+
+#: sensor_toolbar.py:98 sensor_toolbar.py:266
+msgid "Resistance Sensor"
+msgstr "Отпор сензора"
+
+#: sensor_toolbar.py:108 sensor_toolbar.py:273
+msgid "Voltage Sensor"
+msgstr "Напона сензора"
+
+#: sensor_toolbar.py:129
+msgid "1/10 second"
+msgstr "1/10 секунда"
+
+#: sensor_toolbar.py:129 sensor_toolbar.py:140
+msgid "1 second"
+msgstr "1 секунда"
+
+#: sensor_toolbar.py:129
+msgid "30 seconds"
+msgstr "30 секунди"
+
+#: sensor_toolbar.py:130
+msgid "5 minutes"
+msgstr "5 минута"
+
+#: sensor_toolbar.py:130
+msgid "30 minutes"
+msgstr "30 минута"
+
+#: sensor_toolbar.py:133
+msgid "Sampling interval"
+msgstr "Примерни интервал"
+
+#: sensor_toolbar.py:150 sensor_toolbar.py:396
+msgid "Start Recording"
+msgstr "Почни снимати"
+
+#: sensor_toolbar.py:160
+msgid "None"
+msgstr "Ниједан"
+
+#: sensor_toolbar.py:160
+msgid "Rising Edge"
+msgstr "Повећање ивице"
+
+#: sensor_toolbar.py:160
+msgid "Falling Edge"
+msgstr "Спадање ивице"
+
+#: sensor_toolbar.py:170
+msgid "Create a trigger"
+msgstr "Креирање тригача"
+
+#: sensor_toolbar.py:178
+msgid "Zoom out"
+msgstr "Умањи"
+
+#: sensor_toolbar.py:190
+msgid "Zoom in"
+msgstr "Увећај"
+
+#: sensor_toolbar.py:414
+msgid "Stop Recording"
+msgstr "Заустави снимање"
+
+#: toolbar_side.py:50 toolbar_side.py:131
+msgid "Increase amplitude"
+msgstr "Повећај домет"
+
+#: toolbar_side.py:65 toolbar_side.py:133
+msgid "Decrease amplitude"
+msgstr "Смањи домет"
+
+#: toolbar_side.py:136
+msgid "Increase bias"
+msgstr "Повећај нагиб"
+
+#: toolbar_side.py:138
+msgid "Decrease bias"
+msgstr "Смањи нагиб"

@@ -1,0 +1,39 @@
+#!/bin/bash
+# Script para encender y apagar el bobot server.
+
+
+bobot_folder=butiaXO 
+HOME=./bobot-server/butiaXO/
+#lua_cmd='./libs/lua-5.1.4/src/lua bobot-server.lua chotox'
+lua_cmd='./lua bobot-server.lua'
+#bobot_lua=bobot-server.lua chotox &
+#/libs/lua-5.1.4/src/lua
+bobot_mode=chotox &
+
+function bobot_on() {
+	
+	cd $HOME
+	pwd
+	$lua_cmd
+	return 0
+}
+
+function bobot_off() {
+			
+        cd $HOME
+	PID=`pidof lua`
+	echo $PID
+	kill -9 $PID
+	return 0
+
+}
+
+echo 'orden: ' $1 
+
+if [ "$1" == "on" ]; then
+	bobot_on
+else 
+	bobot_off
+fi
+
+

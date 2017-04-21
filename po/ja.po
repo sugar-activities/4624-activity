@@ -1,0 +1,331 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-15 00:33-0500\n"
+"PO-Revision-Date: 2011-12-05 02:49+0200\n"
+"Last-Translator: shirayuki <shirayuking@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: activity/activity.info:2
+msgid "Measure"
+msgstr "計測"
+
+#: journal.py:42 sensor_toolbar.py:52 sensor_toolbar.py:88
+#: sensor_toolbar.py:259
+msgid "Sound"
+msgstr ""
+
+#: journal.py:43 sensor_toolbar.py:53
+msgid "Ohms"
+msgstr ""
+
+#: journal.py:44 sensor_toolbar.py:54
+msgid "Volts"
+msgstr ""
+
+#: journal.py:45 sensor_toolbar.py:62
+msgid "Hz"
+msgstr ""
+
+#: journal.py:58 measure.py:363
+msgid "Session"
+msgstr ""
+
+#: journal.py:60
+msgid "User"
+msgstr ""
+
+#: journal.py:61
+msgid "Mode"
+msgstr ""
+
+#: journal.py:63
+msgid "Date"
+msgstr ""
+
+#: journal.py:65
+msgid "Interval"
+msgstr ""
+
+#: journal.py:68
+msgid "Channels"
+msgstr ""
+
+#: journal.py:108
+msgid "Waveform"
+msgstr ""
+
+#: measure.py:212 measure.py:218
+msgid "Sensors"
+msgstr ""
+
+#: measure.py:219
+msgid "Controls"
+msgstr ""
+
+#: measure.py:228
+msgid "Capture mode"
+msgstr ""
+
+#: measure.py:245 measure.py:276 measure.py:387
+msgid "Freeze the display"
+msgstr ""
+
+#: measure.py:250 measure.py:281
+msgid "Capture sample now"
+msgstr ""
+
+#: measure.py:260
+msgid "<Ctrl>Q"
+msgstr ""
+
+#: measure.py:350
+msgid "Measure Log"
+msgstr ""
+
+#: measure.py:382
+msgid "Unfreeze the display"
+msgstr ""
+
+#: sensor_toolbar.py:47
+msgid "Resistive sensor (connect sensor to pink 'Mic In' on left side of XO)"
+msgstr ""
+
+#: sensor_toolbar.py:50
+msgid "Voltage sensor (connect sensor to pink 'Mic In' on left side of XO)"
+msgstr ""
+
+#: sensor_toolbar.py:53
+msgid "Resistance"
+msgstr ""
+
+#: sensor_toolbar.py:54
+msgid "Voltage"
+msgstr ""
+
+#: sensor_toolbar.py:55 sensor_toolbar.py:121 sensor_toolbar.py:220
+#, fuzzy
+msgid "Time Base"
+msgstr "時間に沿って..."
+
+#: sensor_toolbar.py:56 sensor_toolbar.py:224
+#, fuzzy
+msgid "Frequency Base"
+msgstr "周波数に沿って..."
+
+#: sensor_toolbar.py:57 toolbar_side.py:44
+msgid "Invert"
+msgstr ""
+
+#: sensor_toolbar.py:58
+#, python-format
+msgid "X Axis Scale: 1 division = %(division)s %(unit)s"
+msgstr ""
+
+#: sensor_toolbar.py:60
+msgid "ms"
+msgstr ""
+
+#: sensor_toolbar.py:98 sensor_toolbar.py:266
+msgid "Resistance Sensor"
+msgstr "抵抗値センサー"
+
+#: sensor_toolbar.py:108 sensor_toolbar.py:273
+msgid "Voltage Sensor"
+msgstr "電圧センサー"
+
+#: sensor_toolbar.py:129
+msgid "1/10 second"
+msgstr ""
+
+#: sensor_toolbar.py:129 sensor_toolbar.py:140
+msgid "1 second"
+msgstr "1秒間"
+
+#: sensor_toolbar.py:129
+msgid "30 seconds"
+msgstr "30秒間"
+
+# the length of one minute. unsure of the context.
+#: sensor_toolbar.py:130
+msgid "5 minutes"
+msgstr "5分間"
+
+# the length of one minute. unsure of the context.
+#: sensor_toolbar.py:130
+msgid "30 minutes"
+msgstr "30分間"
+
+#: sensor_toolbar.py:133
+msgid "Sampling interval"
+msgstr ""
+
+#: sensor_toolbar.py:150 sensor_toolbar.py:396
+msgid "Start Recording"
+msgstr ""
+
+#: sensor_toolbar.py:160
+msgid "None"
+msgstr ""
+
+#: sensor_toolbar.py:160
+msgid "Rising Edge"
+msgstr ""
+
+#: sensor_toolbar.py:160
+msgid "Falling Edge"
+msgstr ""
+
+#: sensor_toolbar.py:170
+msgid "Create a trigger"
+msgstr ""
+
+#: sensor_toolbar.py:178
+msgid "Zoom out"
+msgstr ""
+
+#: sensor_toolbar.py:190
+msgid "Zoom in"
+msgstr ""
+
+#: sensor_toolbar.py:414
+msgid "Stop Recording"
+msgstr ""
+
+#: toolbar_side.py:50 toolbar_side.py:131
+msgid "Increase amplitude"
+msgstr ""
+
+#: toolbar_side.py:65 toolbar_side.py:133
+msgid "Decrease amplitude"
+msgstr ""
+
+#: toolbar_side.py:136
+msgid "Increase bias"
+msgstr ""
+
+#: toolbar_side.py:138
+msgid "Decrease bias"
+msgstr ""
+
+#~ msgid "Every 30 sec."
+#~ msgstr "30秒ごと"
+
+#~ msgid "Every 2 min."
+#~ msgstr "2分ごと"
+
+#~ msgid "Every 10 min."
+#~ msgstr "10分ごと"
+
+#~ msgid "Every 30 min."
+#~ msgstr "30分ごと"
+
+#, fuzzy
+#~ msgid "Spectrum value"
+#~ msgstr "スペクトル値"
+
+#, fuzzy
+#~ msgid "RMS   : "
+#~ msgstr "実効値   ： "
+
+#, fuzzy
+#~ msgid "AVG   : "
+#~ msgstr "平均   ： "
+
+#, fuzzy
+#~ msgid "Scale:"
+#~ msgstr "目盛り   ： "
+
+#, fuzzy
+#~ msgid "X Axis: "
+#~ msgstr "X軸： "
+
+#, fuzzy
+#~ msgid "Y Axis : "
+#~ msgstr "Y軸： "
+
+#, fuzzy
+#~ msgid "Click for DC"
+#~ msgstr "クリックしてDCに切替"
+
+#, fuzzy
+#~ msgid "Click for Bias Off"
+#~ msgstr "クリックしてバイアス解放"
+
+#, fuzzy
+#~ msgid "Click for Frequency base"
+#~ msgstr "クリックして周波数単位を変更"
+
+#, fuzzy
+#~ msgid "Pause"
+#~ msgstr "一時停止"
+
+#, fuzzy
+#~ msgid "Show values"
+#~ msgstr "値を表示"
+
+#, fuzzy
+#~ msgid "Click for AC"
+#~ msgstr "クリックしてACに切替"
+
+#, fuzzy
+#~ msgid "Click for Bias On"
+#~ msgstr "クリックしてバイアスをかける"
+
+#, fuzzy
+#~ msgid "Click for Time base"
+#~ msgstr "クリックして時間単位を変更"
+
+#, fuzzy
+#~ msgid "Hide values"
+#~ msgstr "値を非表示"
+
+#, fuzzy
+#~ msgid "Resume"
+#~ msgstr "再開"
+
+#, fuzzy
+#~ msgid "Snapshot"
+#~ msgstr "スナップショット"
+
+# the length of one minute. unsure of the context.
+#~ msgid "1 minute"
+#~ msgstr "1分間"
+
+# the length of one hour, unsure of context
+#~ msgid "1 hour"
+#~ msgstr "1時間"
+
+#~ msgid "Start Logging"
+#~ msgstr "記録開始"
+
+#, fuzzy
+#~ msgid "Show Log"
+#~ msgstr "ログ表示"
+
+#~ msgid "Stop Logging"
+#~ msgstr "記録終了"
+
+#, fuzzy
+#~ msgid "Remove Log"
+#~ msgstr "ログ削除"
+
+#~ msgid "Show sheet and graphs"
+#~ msgstr "数値表とグラフを表示"
+
+#~ msgid "Show waveform"
+#~ msgstr "波形を表示"
+
+#~ msgid "Picture"
+#~ msgstr "ピクチャ"
